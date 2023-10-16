@@ -3,7 +3,7 @@ import React from 'react'
 function Faqs() {
   return (
     <div className='p-5'>
-      <h3  classNameName='text-center'>Frequently Asked Questions</h3>
+      <h3  className='text-center'>Frequently Asked Questions</h3>
       <div  className="accordion mt-4" id="accordionExample">
   <div  className="accordion-item">
     <h2  className="accordion-header" id="headingOne">
