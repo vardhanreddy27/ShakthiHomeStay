@@ -12,13 +12,16 @@ import Contact from './components/Contact';
 function page() {
 	   return (
     <>
-<Navbar />
+{/* <Navbar />
 <HeroBanner />
 <Features />
 <Data />
 <Scrolling />
 <Services />
-<Testimonial />  <Faqs /> <Pics /> <Contact />
+<Testimonial />  */}
+ <Faqs />
+ <Pics />  
+<Contact />
 </>
  )
   

@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 function Pics() {
   return (
-<div className="row p-5">
+<div className="row notinmobile">
     <h3 className='pb-4'>Photo Gallery of Shakthi Homestay</h3>
   <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
     <Image  data-aos="zoom-in" data-aos-duration="200" layout="responsive"

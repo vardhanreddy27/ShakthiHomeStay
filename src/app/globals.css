@@ -149,14 +149,16 @@ a{display: contents!important;
    color: white;
     
 }.colone{    height: 16rem;
-    background-color: 215C54;}
+    background-color: #6495ed75;}
 .colthree{    height: 14.4rem;
-        background-color: #d44638}
+        background-color: #d44638de;}
 .colfour{    height: 14.4rem;
-            background-color:rgba(255, 255, 255, 0.425);}
+            background-color:#989b9d;}
     .coltwo{
         height: 16rem;
         background-color: rgb(107, 160, 95);
+    }.notinmobile{
+        padding: 1.25rem;
     }
 .rempad{    padding-right: 0px!important;
 }.tops{
@@ -201,5 +203,12 @@ a{display: contents!important;
     }
     .s-hide{
         display: none;
+    }
+    .notinmobile{
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        padding-left: 5px;
+        padding-right: 5px;
+        
     }
   }
