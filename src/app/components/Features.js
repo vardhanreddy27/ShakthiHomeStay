@@ -4,7 +4,7 @@ import {SiAdguard} from 'react-icons/si';
   function Features() {
   return (
 <div className="d-flex justify-content-center">
-      <div className="card card1 shadow-lg" style={{ width: '70%' }}>
+      <div className="card card1 myr shadow-lg">
         <div className="card-body">
           <ul className='features'>
           <li className='d-inline text-end myicon'  data-aos="zoom-in" data-aos-duration="200">       <GiPartyPopper size={42}/><p>Parties</p>

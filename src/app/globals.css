@@ -147,7 +147,19 @@ a{display: contents!important;
    background-color: #4a4949!important;
    color: white;
     
-}.colone{    height: 16rem;
+}
+.shakthi {
+    color: white;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+.welcome {
+    color: white;
+    font-weight: lighter;
+    margin-left: 1rem;
+    margin-top: 11rem;
+}
+.colone{    height: 16rem;
     background-color: #6495ed75;}
 .colthree{    height: 14.4rem;
         background-color: #d44638de;}
@@ -197,13 +209,22 @@ a{display: contents!important;
 
   }.text-left{
     text-align: left!important;
+  }.myr{
+    width: 70%;
   }
 @media only screen and (max-width: 1000px) {
+    .myr{
+        width: 95%;
+        padding-left: 0px!important;
+    }
     .mybutton{
         width: 100%;
     }.mt{
         margin-top: 3rem!important;
-    }
+    } .rempad{
+        padding-right: 0px!important;
+        padding-left: 0px!important;
+    }.homeimg{height: 21rem!important;}
     .imgm{width: 4.2rem!important;}
     .extramob{
         margin-top: 4rem!important;

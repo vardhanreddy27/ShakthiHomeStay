@@ -12,12 +12,12 @@ import Contact from './components/Contact';
 function page() {
 	   return (
     <>
- {/* <Navbar />
+ <Navbar />
 <HeroBanner />
-<Features /> */}
+<Features /> 
 <Data />
 <Scrolling />
-<Services /> 
+{/* <Services />  */}
 <Testimonial /> 
  <Faqs />
  <Pics />  

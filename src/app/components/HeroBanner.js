@@ -8,6 +8,7 @@ function HeroBanner() {
       <Image layout="responsive"
         src="/homestay.JPG"
         alt="home stay"
+        className='homeimg'
         width={100}
         height={100}
         priority={true}
@@ -22,18 +23,18 @@ function HeroBanner() {
         flexDirection: 'column',
         justifyContent: 'flex-start',
       }}>
-        <h1 style={{ color: 'white', fontWeight: 'lighter', marginLeft: '1rem',marginTop: '11rem' }}>
+        <h1 className='welcome'>
           WELCOMING GUESTS TO THE
         </h1>
-        <h1 style={{ color: 'white', fontWeight: 'bold', marginLeft: '1rem' }}>
+        <h1 className='shakthi'>
           SHAKTHI HOME STAY
         </h1>
-        <p style={{ color: 'white', fontWeight: 'lighter', marginLeft: '1rem' }}>
+        <p className="s-hide"style={{ color: 'white', fontWeight: 'lighter', marginLeft: '1rem' }}>
           our homestay offers an idyllic escape into beauty of nature </p>
-        <p style={{ color: 'white', fontWeight: 'lighter', marginLeft: '1rem'}}>
+        <p className="s-hide"style={{ color: 'white', fontWeight: 'lighter', marginLeft: '1rem'}}>
           Surrounded by lush greenery and symphony of chirping birds, With 
         </p>
-        <p style={{ color: 'white', fontWeight: 'lighter', marginLeft: '1rem'}}>
+        <p className='s-hide' style={{ color: 'white', fontWeight: 'lighter', marginLeft: '1rem'}}>
           comfortable accommodations that seamlessly blend with the environment
         </p>
       </div>
