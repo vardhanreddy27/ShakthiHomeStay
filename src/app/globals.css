@@ -199,6 +199,12 @@ a{display: contents!important;
     text-align: left!important;
   }
 @media only screen and (max-width: 1000px) {
+    .mybutton{
+        width: 100%;
+    }.mt{
+        margin-top: 3rem!important;
+    }
+    .imgm{width: 4.2rem!important;}
     .extramob{
         margin-top: 4rem!important;
       } .menuitems{
