@@ -214,13 +214,10 @@ a{display: contents!important;
     width: 70%;
   }
 @media only screen and (max-width: 1000px) {
-    .image-rotate {
-        transform: rotate(-5deg);
-        height: 0px;
-      }.image-rotate1 {
-        transform: rotate(5deg);
-        height: 0px;
-      } .myr{
+    .remove{
+        display: none!important;
+    }
+.myr{
         width: 95%;
         padding-left: 0px!important;
     }
@@ -240,7 +237,7 @@ a{display: contents!important;
     }.names{margin-right: 3rem;}
     .name{margin-right: 3rem;}
     .s-hide{
-        display: none;
+        display: none!important;
     }.vh {
         padding-left: 12%;
         padding-right: 12%;
