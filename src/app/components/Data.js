@@ -5,7 +5,7 @@ function Data() {
 	  return (
 		<div className='container mt-5'>
     <div className='row'>
-<div className='col-md-6 mt-5 text-end'>
+<div className='col-md-6 mt-5 text-left'>
 <Image className='split1 imgm' data-aos="fade-up" data-aos-duration="500"
         src="/split1.jpg"
         alt="home stay"
