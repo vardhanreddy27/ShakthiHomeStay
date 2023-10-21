@@ -17,7 +17,7 @@ function page() {
 <Features /> 
 <Data />
 <Scrolling />
-{/* <Services />  */}
+<Services /> 
 <Testimonial /> 
  <Faqs />
  <Pics />  
