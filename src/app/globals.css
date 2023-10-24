@@ -1,15 +1,21 @@
 p{
     margin-bottom: 0px!important;
-}
+}.myflex{display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;}
+.textsecondary{color: #ffffffb0;}
 .navfontsize{
     font-size: small;
-}
+}.card3{height: 28rem!important;width: 22rem;}
 .menuitems{
     display: inline;
-}
+}.sizeof{    text-align: end;font-size: 3rem;}
 .borderradius{
     border-radius: 1.5rem!important;
     width: 15rem;
+}.large{
+    width: 22rem;
 }
 .luggage{
 margin-left: 21%;
@@ -32,8 +38,8 @@ dl, ol, ul {
     margin-top: 8px;}
     .mybutton{
         border-radius: 1.5rem!important;
-        color: #4a4949!important;
-        -bs-btn-border-color: #4a4949!important;
+        color: #4a6d6e!important;
+        -bs-btn-border-color: #4a6d6e!important;
         width: 30%;
         height: 15%;
     }
@@ -63,7 +69,7 @@ dl, ol, ul {
         position: static!important;
       }
       .slide{
-        background-color:#4a4949;;
+        background-color:#4a6d6e;;
 
       }
       .names{margin-bottom: 0px;
@@ -86,10 +92,10 @@ dl, ol, ul {
       }
       .myhh{
         color: #ffffffb8;
-        background-color: #4a4949;
+        background-color: #4a6d6e;
         margin-bottom: 0px;
       }
-      .myh{background-color: #4a4949;
+      .myh{background-color: #4a6d6e;
         margin-bottom: 0px;
         color: white;}
       .room{
@@ -104,15 +110,15 @@ dl, ol, ul {
         padding-bottom: 11px;
     }
     .mybutton:hover{
-        background-color: #4a4949!important;
-        -bs-btn-border-color: #4a4949!important;
+        background-color: #4a6d6e!important;
+        -bs-btn-border-color: #4a6d6e!important;
         color: white!important;
     }
     .back{
         margin-left: 0px!important;
         margin-right: 0px!important;
         max-width: 100%!important;
-        background-color: #010100ad;
+        background-color: #4a6d6e;
         padding-top: 3rem;
         color: white;
     }body {
@@ -144,10 +150,12 @@ a{display: contents!important;
         color: black!important;
     }
 .contact{
-   background-color: #4a4949!important;
+   background-color: #4a6d6e!important;
    color: white;
     
-}
+}body {
+    -ms-overflow-style: none;
+  }
 .shakthi {
     color: white;
     font-weight: bold;
@@ -165,23 +173,30 @@ a{display: contents!important;
         background-color: #d44638de;}
 .colfour{    height: 14.4rem;
             background-color:#989b9d;}
+    .cardcolor{background-color: #003233b5!important;
+    border-radius: 1.5rem;
+    height: 14rem;
+color: white!important;}
     .coltwo{
         height: 16rem;
         background-color: rgb(107, 160, 95);
-    }.notinmobile{
+    }
+    .cardouter{    border-radius: 1.5rem!important;
+        border-color: white!important;}
+    .notinmobile{
         padding: 1.25rem;
     }
+      
 .rempad{    padding-right: 0px!important;
 }.tops{
     margin: 1rem;
     margin-top: 5rem;
 }
 .shs{
-    color: #353535!important;
     font-weight: 800!important;
 }.accordion-button:not(.collapsed) {
     color: #fff!important;
-    background-color: #4a4949!important;
+    background-color: #4a6d6e!important;
 }.accordion-button:not(.collapsed)::after {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e")!important;
 }.map{
@@ -201,7 +216,7 @@ a{display: contents!important;
     align-content: center;
     justify-content: space-evenly;
 }
-.myicon{  color: #010100ad;
+.myicon{  color: #4a6d6e;
     transition: transform 0.3s; /* Add smooth transition for the zoom effect */
 }
 .myicon:hover {
@@ -216,6 +231,8 @@ a{display: contents!important;
 @media only screen and (max-width: 1000px) {
     .remove{
         display: none!important;
+    }html,body{
+        overflow-x: hidden;
     }
 .myr{
         width: 95%;
