@@ -207,9 +207,8 @@ color: white!important;}
     height: 30rem;
 }
 .card-body {
-    padding: 0px!important;
-    padding-top: 7px!important;
-    padding-bottom: 7px!important;
+    padding: 1rem!important;
+
 }
 .features{
     display: flex;
