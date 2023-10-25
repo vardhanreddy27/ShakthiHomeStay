@@ -1,3 +1,6 @@
+.hovered{
+    margin: 0px!important;
+    padding: 0px!important;}
 html{
     width: 101%!important};p{
     margin-bottom: 0px!important;
@@ -255,6 +258,7 @@ color: white!important;}
         padding-left: 0px!important;
     }.homeimg{height: 21rem!important;}
     .imgm{width: 4.2rem!important;}
+  
     .extramob{
         margin-top: 4rem!important;
       } .menuitems{

@@ -4,6 +4,7 @@ import {BiLogoFacebookSquare} from 'react-icons/bi';
 import {BsInstagram} from 'react-icons/bs';
 import Image from 'next/image';
 function Navbar() {
+  
   return (
    <div className='fluid-container shadow sticky-top p-2'>
     <div className='row'>

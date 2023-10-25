@@ -4,7 +4,20 @@ import Image from 'next/image';
 import CountUp from 'react-countup';
 
 function Data() {
+  const imageRefs = Array.from({ length: 5 }, () => useRef());
   const counterRef = useRef();
+  const handleHover = () => {
+    imageRefs.forEach((ref) => {
+      ref.current.classList.add('hovered');
+    });
+  }
+
+  const handleLeave = () => {
+    imageRefs.forEach((ref) => {
+      ref.current.classList.remove('hovered');
+    });
+  }
+
 const [inView, setInView] = useState(false);
 useEffect(() => {
   const options = {
@@ -24,35 +37,50 @@ useEffect(() => {
     <div className='row'>
 <div className='col-md-6 mt-5 text-center'>
 <Image className='split1 imgm' data-aos="fade-up" data-aos-duration="500"
-        src="/split1.jpg"
+              ref={imageRefs[0]}
+              src="/split1.jpg"
         alt="home stay"
         width={90}
+        onMouseOver={handleHover}
+        onMouseLeave={handleLeave}
         height={300}
         priority={true}
       /><Image  className='split2 imgm' data-aos="fade-down" data-aos-duration="500"
+      ref={imageRefs[1]}
       src="/split2.jpg"
       alt="home stay"
-      width={90}
+        width={90}
       height={300}
+      onMouseOver={handleHover}
+      onMouseLeave={handleLeave}
       priority={true}
     /><Image  className='split3 imgm' data-aos="fade-up" data-aos-duration="500"
     src="/split3.jpg"
+    ref={imageRefs[2]}
     alt="home stay"
     width={90}
+    onMouseOver={handleHover}
+    onMouseLeave={handleLeave}
     height={300}
     priority={true}
   /><Image  className='split4 imgm' data-aos="fade-down" data-aos-duration="500"
   src="/split4.jpg"
+  ref={imageRefs[3]}
   alt="home stay"
   width={90}
+  onMouseOver={handleHover}
+  onMouseLeave={handleLeave}
   height={300}
   priority={true}
 />
 <Image  className='split5 imgm' data-aos="fade-up" data-aos-duration="500"
-        src="/split5.jpg"
+             ref={imageRefs[4]}
+             src="/split5.jpg"
         alt="home stay"
         width={90}
         height={300}
+        onMouseOver={handleHover}
+        onMouseLeave={handleLeave}
         priority={true}
       />
 
