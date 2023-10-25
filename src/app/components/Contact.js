@@ -11,13 +11,13 @@ function Contact() {
       </div>
       <div className='col-md-6 contact text-center'>
       <div className='row'>
-       <a href="tel:8882192787" > <div className='col-6 colone'><FiPhoneCall className='tops' size={42}/><h5 className='p-3'>Call us 9866531011</h5></div></a>
-       <a href="https://api.whatsapp.com/send?phone=919866531011&text=Hii"> <div className='col-6 coltwo'><BsWhatsapp size={42} className='tops'/><h5 className='p-3'>Whatsapp us 9866531011</h5></div></a> 
+       <a href="tel:8882192787" > <div className='col-6 colone'><FiPhoneCall className='tops' size={42}/><h5 className='p-3'>Call us 8882192787</h5></div></a>
+       <a href="https://api.whatsapp.com/send?phone=918882192787&text=Hii"> <div className='col-6 coltwo'><BsWhatsapp size={42} className='tops'/><h5 className='p-3'>Whatsapp us 8882192787</h5></div></a> 
         </div>
         <div className='row'>
         <a href="https://mail.google.com/mail/?view=cm&fs=1&to=2527webmaster@gmail.com">
  <div className='col-6 colthree'><FiMail size={42} className='tops'/><h5 className='pt-3'>Email us 2527webmaster</h5></div></a>
-        <div className='col-6 colfour'><AiOutlineMessage size={42} className='tops'/><h5 className='p-3'>Message us 9866531011</h5></div>
+        <div className='col-6 colfour'><AiOutlineMessage size={42} className='tops'/><h5 className='p-3'>Message us 8882192787</h5></div>
         </div>
       </div>
       </div>

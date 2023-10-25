@@ -16,7 +16,7 @@ function Navbar() {
     </div>
     <div className='col-4 fw-bold text-center'>SHAKTHI HOME STAY </div>
     <div className='col-4'>    <div className="col-sm  s-hide text-end">
-    <a href="tel:8882192787" > <p className='navfontsize me-1 ms-4 menuitems me-3 navcolor '> +91 98 6653 1011</p> </a>   </div></div>
+    <a href="tel:8882192787" > <p className='navfontsize me-1 ms-4 menuitems me-3 navcolor '> +91 888 219 2787</p> </a>   </div></div>
     </div>
    </div>
   )

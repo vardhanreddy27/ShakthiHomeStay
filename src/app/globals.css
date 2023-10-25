@@ -1,6 +1,9 @@
-p{
+html{
+    width: 101%!important};p{
     margin-bottom: 0px!important;
-}.myflex{display: flex;
+}
+p{margin-bottom: 0px!important;}
+.myflex{display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;}
@@ -227,6 +230,8 @@ color: white!important;}
     text-align: left!important;
   }.myr{
     width: 70%;
+  }.highlight{
+    background-color: #4a6d6e;
   }
 @media only screen and (max-width: 1000px) {
     .remove{
