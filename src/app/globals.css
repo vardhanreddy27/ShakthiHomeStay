@@ -194,7 +194,10 @@ color: white!important;}
 }.tops{
     margin: 1rem;
     margin-top: 5rem;
-}
+}.innav{display: grid;
+    align-items: center;
+    padding-left: 0px;
+    padding-right: 0px;}
 .shs{
     font-weight: 800!important;
     color:  #4a6d6e;
