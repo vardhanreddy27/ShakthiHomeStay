@@ -9,12 +9,13 @@ import Testimonial from './components/Testimonial';
 import Faqs from './components/Faqs';
 import Pics from './components/Pics';
 import Contact from './components/Contact';
+import List from './components/List';
 function page() {
 	   return (
     <>
  <Navbar />
 <HeroBanner />
-<Features /> 
+<Features />
 <Data />
 <Scrolling />
 <Services /> 

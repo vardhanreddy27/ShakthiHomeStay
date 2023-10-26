@@ -282,3 +282,31 @@ color: white!important;}
     }
   }
   .mst{margin-left: 2px;}
+  
+ .navspace{
+    margin-right: 33px!important;
+ }
+ 
+.zoom {
+  position: sticky;
+  top: 0vh;
+  will-change: transform;
+  width: 100%;
+  padding-top: 1rem;
+  margin-top: 9rem;
+  transform: scale(1.2);
+  text-align: center;
+}
+
+.bottom {
+  height: 85vh;
+}
+
+.top {
+  height: 0vh;
+}
+
+.wrap {
+  height: 200vh;
+}
+

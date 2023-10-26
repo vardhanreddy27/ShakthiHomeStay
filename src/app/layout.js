@@ -11,6 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en"><head>
+                <link rel="shortcut icon" href="/public/favicon.png" />
        <Script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></Script>
        <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />

@@ -2,6 +2,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
 import CountUp from 'react-countup';
+import List from './List';
 
 function Data() {
   const imageRefs = Array.from({ length: 5 }, () => useRef());
@@ -85,19 +86,19 @@ useEffect(() => {
       />
 
 </div>
-<div className='col-md-6 mt'><h1 data-aos="fade-up"
-     data-aos-duration="500">Your Perfect Getaway: <span className='shs'>Shakthi Homestay</span>- Your Home in Nature</h1>
-<p data-aos="fade-up"
-     data-aos-duration="500">Shakthi Homestay is located in the picturesque region of Chikmagalur, known for its breathtaking coffee plantations. These plantations, nestled within the Western Ghats, are characterized by lush greenery and rolling hills, creating a serene natural backdrop. The landscape is adorned with vast stretches of coffee estates, painting the scenery in vibrant shades of green. This unique setting offers guests a tranquil and immersive experience in the heart of nature.</p>
- <a href="tel:8882192787" ><button type="button" className="btn btn-outline-secondary mt-3  mybutton "data-aos="fade-up"
+<div className='col-md-6 mt'><h1  >Your Perfect Getaway: <span className='shs reveal-type'>Shakthi Homestay</span>- Your Home in Nature</h1>
+<p  >Shakthi Homestay is located in the picturesque region of Chikmagalur, known for its breathtaking coffee plantations. These plantations, nestled within the Western Ghats, are characterized by lush greenery and rolling hills, creating a serene natural backdrop. The landscape is adorned with vast stretches of coffee estates, painting the scenery in vibrant shades of green. This unique setting offers guests a tranquil and immersive experience in the heart of nature.</p>
+ <a href="tel:8882192787" ><button type="button" className="reveal-type btn btn-outline-secondary mt-3  mybutton "data-aos="fade-up"
      data-aos-duration="500"data-aos-anchor-placement="top-bottom">Contact Us</button></a>
 </div>
     </div>
+<List />
+
       <div className='row pt-5 mt-5 pe-5 ps-5 s-hide'>  
     <table>
   <tbody>
     <tr >
-      <td><h4 data-aos="fade-up"     data-aos-duration="300">Results speak louder than words</h4><p className='text-secondary'h4 data-aos="fade-up"     data-aos-duration="300">Take a look at what we've already achieved</p></td>
+      <td><h4 data-aos="fade-up"  data-aos-duration="300">Results speak louder than words</h4><p className='text-secondary'h4 data-aos="fade-up"     data-aos-duration="300">Take a look at what we've already achieved</p></td>
       <td> <div className="card cardouter "data-aos="fade-up"     data-aos-duration="300">
   <div className="card-body large cardcolor p-3">
     <div className='col myflex'> <h2 data-aos="fade-up"     data-aos-duration="500">Happy Customers</h2><h1 className='sizeof'data-aos="fade-up"     data-aos-duration="500">  <div ref={counterRef}>
