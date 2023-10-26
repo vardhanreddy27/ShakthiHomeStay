@@ -232,7 +232,14 @@ color: white!important;}
     color: black; 
     transform: scale(1.1); /* Increase the size by 10% */
 
-  }.text-left{
+  }.onlyinmob{
+    padding-bottom: 7rem!important;
+  }
+  .onlymob{
+    margin-top: 2rem!important;
+    margin-bottom: 3rem;
+  }
+  .text-left{
     text-align: left!important;
   }.myr{
     width: 70%;
