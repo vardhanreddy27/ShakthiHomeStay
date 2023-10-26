@@ -46,8 +46,7 @@ function List() {
     </div>
     <div className='d-md-none d-lg-none mt-5 text-center'>
 
-    <Image className='rounded shadow' data-aos="fade-up" data-aos-duration="500"  style={{ transform: 'scale(1.55667)', position: 'absolute', top: '130rem', left: '20%', transform: 'translate(-50%, -50%)' }}
-              src="/shakthiview.png"
+    <Image className='rounded shadow' data-aos="fade-up" data-aos-duration="500"       src="/shakthiview.png"
         alt="home stay"
         width={360}
         height={400}
