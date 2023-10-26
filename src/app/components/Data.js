@@ -92,7 +92,7 @@ useEffect(() => {
      data-aos-duration="500"data-aos-anchor-placement="top-bottom">Contact Us</button></a>
 </div>
     </div>
-{/* <List /> */}
+<List />
 
       <div className='row pt-5 mt-5 pe-5 ps-5 s-hide'>  
     <table>

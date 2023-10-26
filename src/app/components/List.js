@@ -27,7 +27,8 @@ function List() {
         };
       }, []); // Empty dependency array ensures this effect runs only once on component mount
     
-  return (<>
+  return (
+  <div>
     <div className='s-hide'>
       <section className="top textsecondary "></section>
 <section className="wrap">
@@ -36,7 +37,7 @@ function List() {
 </div>
 
 </section>
-<section className="bottom"><div className='text-overlay' style={{ transform: 'scale(1.55667)', position: 'absolute', top: '130rem', left: '20%', transform: 'translate(-50%, -50%)' }}>
+<section className="bottom"><div className='text-overlay'>
 <div className="card">
   <div className="card-body">
     This is some text within a card body.
@@ -45,7 +46,7 @@ function List() {
     </div>
     <div className='d-md-none d-lg-none mt-5 text-center'>
 
-    <Image className='rounded shadow' data-aos="fade-up" data-aos-duration="500"
+    <Image className='rounded shadow' data-aos="fade-up" data-aos-duration="500"  style={{ transform: 'scale(1.55667)', position: 'absolute', top: '130rem', left: '20%', transform: 'translate(-50%, -50%)' }}
               src="/shakthiview.png"
         alt="home stay"
         width={360}
@@ -54,7 +55,7 @@ function List() {
       />
     </div>
     
-    </>
+    </div>
   )
 }
 
