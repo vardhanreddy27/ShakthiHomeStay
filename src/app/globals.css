@@ -292,7 +292,6 @@ color: white!important;}
   top: 0vh;
   will-change: transform;
   width: 100%;
-  padding-top: 1rem;
   margin-top: 9rem;
   transform: scale(1.2);
   text-align: center;
@@ -300,8 +299,33 @@ color: white!important;}
 
 .bottom {
   height: 85vh;
+}.blur1{
+    position: absolute!important;
 }
-
+.blurcard{
+    position: absolute;
+    bottom: 19vh;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 26rem;
+    height: 15rem;
+    border-block-start-color: #fff;
+    backdrop-filter: blur(15px);
+    border-radius: 22px;
+}.blurcard1{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 26rem;
+    bottom: 31rem;
+    left: 45rem;
+    height: 15rem;
+    border-block-start-color: #fff;
+    backdrop-filter: blur(15px);
+    border-radius: 22px;
+} .no-marker {
+    list-style-type: none; /* Removes the default bullet point markers */
+  }.coloradd{color: white;
+    font-weight: bolder!important;
+    text-shadow: 8px 7px 6px black;}
 .top {
   height: 0vh;
 }

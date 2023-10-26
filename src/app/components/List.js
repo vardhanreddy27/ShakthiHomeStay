@@ -33,16 +33,37 @@ function List() {
       <section className="top textsecondary "></section>
 <section className="wrap">
   <div className='zoom'>
-<img src='/shakthiview.png' className='rounded shadow' alt="f" />
+<img src='/stest.png' className='rounded shadow' alt="f" />
 </div>
 
 </section>
 <section className="bottom"><div className='text-overlay'>
-<div className="card">
-  <div className="card-body">
-    This is some text within a card body.
+<div className="card blur1">
+  <div className="card-body blurcard">
+    
+<ul class="no-marker text-center">
+<li><h3 className='coloradd'>Camp fire</h3></li>
+<li><h3 className='coloradd'>Hot Water</h3></li>
+<li><h3 className='coloradd'>Parking</h3></li>
+<li><h3 className='coloradd'>Security</h3></li>
+<li><h3 className='coloradd'>Badminton</h3></li>
+  </ul>
   </div>
-</div>            </div></section>
+</div>            </div>
+<div className='text-overlay'>
+<div className="card blur1">
+  <div className="card-body blurcard1">
+    
+<ul class="no-marker text-center">
+<li><h3 className='coloradd'>Luggage Storage</h3></li>
+<li><h3 className='coloradd'>Dance Floor</h3></li>
+<li><h3 className='coloradd'>Multilingual Staff</h3></li>
+<li><h3 className='coloradd'>Verandah</h3></li>
+<li><h3 className='coloradd'>Caretaker</h3></li>
+  </ul>
+  </div>
+</div>            </div>
+</section>
     </div>
     <div className='d-md-none d-lg-none mt-5 text-center'>
 
