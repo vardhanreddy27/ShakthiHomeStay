@@ -41,7 +41,7 @@ function List() {
 <div className="card blur1">
   <div className="card-body blurcard">
     
-<ul clasNames="no-marker text-center">
+<ul className="no-marker text-center">
 <li><h3 className='coloradd'>Camp fire</h3></li>
 <li><h3 className='coloradd'>Hot Water</h3></li>
 <li><h3 className='coloradd'>Parking</h3></li>

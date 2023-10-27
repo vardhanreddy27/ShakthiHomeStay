@@ -329,7 +329,7 @@ color: white!important;}
     backdrop-filter: blur(15px);
     border-radius: 22px;
 } .no-marker {
-    list-style-type: none; /* Removes the default bullet point markers */
+    list-style-type: none!important; /* Removes the default bullet point markers */
   }.coloradd{color: white;
     font-weight: bolder!important;
     text-shadow: 8px 7px 6px black;}
