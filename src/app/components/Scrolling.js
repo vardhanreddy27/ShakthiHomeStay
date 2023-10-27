@@ -5,7 +5,7 @@ import Marquee from "react-fast-marquee";
 function Scrolling() {
   return (
     <div className='container mt-5 back'>
-      <div className='row text-center onlymob'><h3>We are also Available In </h3></div>
+      <div className='row text-center onlymob'><h2>We are also Available In </h2></div>
 <div className='row mt-3 onlyinmob'>
 <Marquee autoFill="true">
 <div className='col iconscroll'>  <Image 
