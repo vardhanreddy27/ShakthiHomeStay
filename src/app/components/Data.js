@@ -5,19 +5,9 @@ import CountUp from 'react-countup';
 import List from './List';
 
 function Data() {
-  const imageRefs = Array.from({ length: 5 }, () => useRef());
   const counterRef = useRef();
-  const handleHover = () => {
-    imageRefs.forEach((ref) => {
-      ref.current.classList.add('hovered');
-    });
-  }
 
-  const handleLeave = () => {
-    imageRefs.forEach((ref) => {
-      ref.current.classList.remove('hovered');
-    });
-  }
+
 
 const [inView, setInView] = useState(false);
 useEffect(() => {
@@ -39,7 +29,6 @@ useEffect(() => {
 <div className='col-md-6 text-center'>
 
 <Image  className='imgm rounded' data-aos="fade-up" data-aos-duration="500"
-             ref={imageRefs[4]}
              src="/hometop.jpg"
         alt="home stay"
         width={500}
@@ -49,7 +38,6 @@ useEffect(() => {
 
 </div>
 <div className='col-md-6 mt'><h1  data-aos="fade-up" data-aos-duration="500">Your Perfect Getaway: <span className='shs reveal-type'>Shakthi Homestay</span>- Your Home in Nature</h1>
-<p data-aos="fade-up" data-aos-duration="500" >Shakthi Homestay is located in the picturesque region of Chikmagalur, known for its breathtaking coffee plantations. These plantations, nestled within the Western Ghats, are characterized by lush greenery and rolling hills, creating a serene natural backdrop. The landscape is adorned with vast stretches of coffee estates, painting the scenery in vibrant shades of green. This unique setting offers guests a tranquil and immersive experience in the heart of nature.</p>
  <a href="tel:8882192787" ><button type="button" className="reveal-type btn btn-outline-secondary mt-3  mybutton "data-aos="fade-up"
      data-aos-duration="500"data-aos-anchor-placement="top-bottom">Contact Us</button></a>
 </div>

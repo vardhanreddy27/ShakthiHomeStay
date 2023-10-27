@@ -41,7 +41,7 @@ function List() {
 <div className="card blur1">
   <div className="card-body blurcard">
     
-<ul class="no-marker text-center">
+<ul clasNames="no-marker text-center">
 <li><h3 className='coloradd'>Camp fire</h3></li>
 <li><h3 className='coloradd'>Hot Water</h3></li>
 <li><h3 className='coloradd'>Parking</h3></li>
@@ -54,7 +54,7 @@ function List() {
 <div className="card blur1">
   <div className="card-body blurcard1">
     
-<ul class="no-marker text-center">
+<ul className="no-marker text-center">
 <li><h3 className='coloradd'>Cricket</h3></li>
 <li><h3 className='coloradd'>Dance Floor</h3></li>
 <li><h3 className='coloradd'>Multilingual Staff</h3></li>
