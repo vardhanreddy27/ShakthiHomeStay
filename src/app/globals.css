@@ -167,6 +167,9 @@ a{display: contents!important;
     font-weight: bold;
     margin-left: 1rem;
 }
+.mobno{
+    padding-right: 3rem;
+}
 .welcome {
     color: white;
     font-weight: lighter;
@@ -264,8 +267,13 @@ color: white!important;}
         padding-right: 0px!important;
         padding-left: 0px!important;
     }.homeimg{height: 21rem!important;}
-    .imgm{width: 4.2rem!important;}
-  
+    .imgm{width: 95%!important;}
+  .mobno{
+    padding-right: 0px;
+  }.herotxt{
+    padding-left: 20px!important;
+    padding-right:20px!important;
+  }
     .extramob{
         margin-top: 4rem!important;
       } .menuitems{
@@ -386,4 +394,7 @@ color: white!important;}
     color: white!important;
     --bs-btn-hover-border-color: rgba(255, 255, 255, 0.87)!important;
 
+}
+.imghm{
+    height: 20rem!important;
 }

@@ -21,7 +21,8 @@ function Modern() {
   }
 
   return (
-    <div className='m-5 pt-5'>
+    <>
+    <div className='m-5 pt-5  s-hide'>
       <h1 className='ps-2' data-aos="fade-up" data-aos-duration="500">Where Nature Meets Comfort: Discover the </h1>
       <h1 data-aos="fade-up" data-aos-duration="500" className='ps-2 mb-4'>Perfect Getaway in Our Shakthi Homestay</h1>
       <div className="custom-shape" data-aos="fade-up" data-aos-duration="500">
@@ -38,7 +39,7 @@ function Modern() {
           height={100}
         />
         <div className="buttons-container">
-          <button 
+          <button  
             className={`btn ${activeButton === '/chikmagalur.jpg' ? 'btn-light' : 'btn-outline thisbtn'} ms-2 me-1 imgbtns`}
             onClick={() => handleButtonClick('/chikmagalur.jpg')}
           >
@@ -59,6 +60,37 @@ function Modern() {
         </div>
       </div>
     </div>
+    <div className='m-2  d-md-none d-lg-none pt-5'>
+    <h1 className='ps-2' data-aos="fade-up" data-aos-duration="500">Where Nature Meets Comfort: Discover the Perfect Getaway in Our Shakthi Homestay</h1>
+    <Image data-aos="fade-up" data-aos-duration="500"
+          layout="responsive"
+          priority={true}
+          src={imageSrc}
+          className="w-100 shadow-1-strong rounded mb-4 pt-5 imghm"
+          alt="shakthi homestay"
+          width={100}
+          height={100}
+        />
+            <button  
+            className={`btn ${activeButton === '/chikmagalur.jpg' ? 'btn btn-light' : 'btn-outline-secondary '} ms-2 me-1 imgbtns`}
+            onClick={() => handleButtonClick('/chikmagalur.jpg')}
+          >
+            Nature
+          </button>
+          <button
+            className={`btn ${activeButton === '/rooms.jpg' ? 'btn-light' : 'btn-outline-secondary'} imgbtns me-1`}
+            onClick={() => handleButtonClick('/rooms.jpg')}
+          >
+            Rooms
+          </button>
+          <button
+            className={`btn ${activeButton === '/exterior.png' ? 'btn-light' : 'btn-outline-secondary '} imgbtns`}
+            onClick={() => handleButtonClick('/exterior.png')}
+          >
+            Exterior
+          </button>
+    </div>
+    </>
   )
 }
 
