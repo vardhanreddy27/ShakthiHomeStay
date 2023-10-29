@@ -9,13 +9,23 @@ import Testimonial from './components/Testimonial';
 import Faqs from './components/Faqs';
 import Pics from './components/Pics';
 import Contact from './components/Contact';
-import List from './components/List';
+import AnimatedCursor from "react-animated-cursor"
+import Hero from './components/Hero';
+import Modern from './components/Modern';
+
 function page() {
 	   return (
     <>
+    {/* <AnimatedCursor  innerSize={10}
+      outerSize={50} outerAlpha={0.3}
+      innerScale={0.7}
+      color='3,74,74'
+      outerScale={2} /> */}
  <Navbar />
 <HeroBanner />
 <Features />
+<Hero />
+<Modern />
 <Data />
 <Scrolling />
 <Services /> 
