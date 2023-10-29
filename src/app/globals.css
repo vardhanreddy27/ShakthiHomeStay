@@ -319,6 +319,7 @@ color: white!important;}
 }
 .blurcard{
     position: absolute;
+    margin-left: 2rem;
     bottom: 19vh;
     background-color: rgba(255, 255, 255, 0.2);
     width: 26rem;
@@ -331,7 +332,7 @@ color: white!important;}
     background-color: rgba(255, 255, 255, 0.2);
     width: 26rem;
     bottom: 31rem;
-    left: 45rem;
+    left: 50rem;
     height: 15rem;
     border-block-start-color: #fff;
     backdrop-filter: blur(15px);
