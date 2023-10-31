@@ -10,8 +10,8 @@ function Navbar() {
     <div className='row'>
     <div className='col-4 innav'>
     <div className="col-sm text-start  s-hide">
-    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=2527webmaster@gmail.com">
- <p className='d-inline navfontsize navcolor ms-3'>2527webmaster@gmail.com </p></a>
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sundarii.bhumi@gmail.com">
+ <p className='d-inline navfontsize navcolor ms-3'>sundarii.bhumi@gmail.com </p></a>
     <p className='d-inline navfontsize'> | </p>
     <p className='d-inline navfontsize'> <a href='https://www.instagram.com/p/B2_rTG_h7SH/'><BsInstagram  className='me-2 insta'/></a><a href='https://www.facebook.com/LikhithAaradhya/'><BiLogoFacebookSquare size={18}  className='me-2 fb'/></a><a href=''><AiFillYoutube size={20} className='youtube'/></a></p>
     </div>
