@@ -25,7 +25,7 @@ function Navbar() {
         priority={true}
       />    </div>
     <div className='col-4 innav'>    <div className="col-sm  s-hide text-end">
-    <a href="tel:8882192787" > <p className='navfontsize me-1 ms-4 menuitems me-3 navcolor navspace'> +91 888 219 2787</p> </a>   </div></div>
+    <a href="tel:7483505691" > <p className='navfontsize me-1 ms-4 menuitems me-3 navcolor navspace'> +91 888 219 2787</p> </a>   </div></div>
     </div>
    </div>
   )
