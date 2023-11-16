@@ -9,54 +9,72 @@ function Pics() {
     <Image  data-aos="zoom-in" data-aos-duration="200" layout="responsive"
       src="/hometop.jpg"
       className="w-100 shadow-1-strong rounded mb-4"
-      alt="Boat on Calm Water"
+      alt="shakthi homestay chikmagalur"
       width={100}
       height={100}
     />
 
-    <Image  data-aos="zoom-in" data-aos-duration="400" layout="responsive"
+<Image  data-aos="zoom-in" data-aos-duration="400" layout="responsive"
       src="/shakthihomestaybeds.jpg"
       className="w-100 shadow-1-strong rounded mb-4"
-      alt="Wintry Mountain Landscape"
+      alt="shakthi homestay chikmagalur"
       width={100}
       height={100}
-    />
+    />  <Image  data-aos="zoom-in" data-aos-duration="400" layout="responsive"
+    src="/road.jpg"
+    className="w-100 shadow-1-strong rounded mb-4"
+    alt="shakthi homestay chikmagalur"
+    width={100}
+    height={100}
+  />
   </div>
 
   <div className="col-lg-4 mb-4 mb-lg-0">
     <Image data-aos="zoom-in" data-aos-duration="600" layout="responsive"
       src="/shakthihomestayhall.jpg"
       className="w-100 shadow-1-strong rounded mb-4"
-      alt="Mountains in the Clouds"
+      alt="shakthi homestay chikmagalur"
       width={100}
       height={100}
     />
 
-    <Image  data-aos="zoom-in" data-aos-duration="800" layout="responsive"
+<Image  data-aos="zoom-in" data-aos-duration="800" layout="responsive"
       src="/shakthihomestayroom.jpg"
       className="w-100 shadow-1-strong rounded mb-4"
-      alt="Boat on Calm Water"
+      alt="shakthi homestay chikmagalur"
       width={100}
       height={100}
-    />
+    />   <Image  data-aos="zoom-in" data-aos-duration="800" layout="responsive"
+    src="/nature.jpg"
+    className="w-100 shadow-1-strong rounded mb-4"
+    alt="shakthi homestay chikmagalur"
+    width={100}
+    height={100}
+  />
   </div>
 
   <div className="col-lg-4 mb-4 mb-lg-0">
     <Image  data-aos="zoom-in" data-aos-duration="1000" layout="responsive"
       src="/shakthihomestayrooms.jpg"
       className="w-100 shadow-1-strong rounded mb-4"
-      alt="Waves at Sea"
+      alt="shakthi homestay chikmagalur"
       width={100}
       height={100}
     />
 
-    <Image  data-aos="zoom-in" data-aos-duration="1200" layout="responsive"
+<Image  data-aos="zoom-in" data-aos-duration="1200" layout="responsive"
       src="/shakthihomestaybed.jpg"
       className="w-100 shadow-1-strong rounded mb-4"
-      alt="Yosemite National Park"
+      alt="shakthi homestay chikmagalur"
       width={100}
       height={100}
-    />
+    /> <Image  data-aos="zoom-in" data-aos-duration="1200" 
+    src="/outdoor.jpg"
+    className="w-100 shadow-1-strong rounded mb-4"  layout="responsive"
+    alt="shakthi homestay chikmagalur"
+    width={300}
+    height={300}
+  /> 
   </div>
 </div>
   )

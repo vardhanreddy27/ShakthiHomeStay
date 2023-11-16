@@ -8,7 +8,7 @@ function Hero() {
 
 <Image  className='imgm rounded' data-aos="fade-up" data-aos-duration="500"
              src="/hometop.jpg"
-        alt="home stay"
+        alt="shakthi homestay chikmagalur"
         width={500}
         height={400}
         priority={true}

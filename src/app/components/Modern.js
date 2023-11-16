@@ -34,7 +34,7 @@ function Modern() {
           priority={true}
           src={imageSrc}
           className="w-100 shadow-1-strong rounded mb-4"
-          alt="Boat on Calm Water"
+          alt="shakthi homestay chikmagalur"
           width={100}
           height={100}
         />
@@ -67,7 +67,7 @@ function Modern() {
           priority={true}
           src={imageSrc}
           className="w-100 shadow-1-strong rounded mb-4 pt-5 imghm"
-          alt="shakthi homestay"
+          alt="shakthi homestay chikmagalur"
           width={100}
           height={100}
         />

@@ -17,7 +17,7 @@ function Services() {
       <div className="image-rotate">
 <Image  className='serviceimg' data-aos="fade-up-left" data-aos-duration="1500"
         src="/hall.jpg"
-        alt="home stay"
+        alt="shakthi homestay chikmagalur"
         width={300}
         height={300}
         priority={true}
@@ -25,14 +25,14 @@ function Services() {
       <div className="image-rotate1">
       <Image  className='serviceimg room' data-aos="fade-up-right" data-aos-duration="1500"
               src="/hometop.jpg"
-              alt="home stay"
+              alt="shakthi homestay chikmagalur"
               width={300}
               height={300}
               priority={true}
             /></div>
             <Image  className='serviceimg bed' data-aos="fade-up" data-aos-duration="1500"
                     src="/room.jpg"
-                    alt="home stay"
+                    alt="shakthi homestay chikmagalur"
                     width={300}
                     height={300}
                     priority={true}
@@ -40,7 +40,7 @@ function Services() {
     <div className='col-md-6 pt-3 d-md-none d-lg-none'>
     <Image  className='serviceimg bed' data-aos="fade-up" data-aos-duration="1500"
                     src="/room.jpg"
-                    alt="home stay"
+                    alt="shakthi homestay chikmagalur"
                     width={300}
                     height={300}
                     priority={true}

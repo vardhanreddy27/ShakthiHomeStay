@@ -33,7 +33,7 @@ function List() {
       <section className="top textsecondary "></section>
 <section className="wrap">
   <div className='zoom'>
-<img src='/stest.png' className='rounded shadow' alt="f" />
+<img src='/stest.png' className='rounded shadow' alt="shakthi homestay chikmagalur" />
 </div>
 
 </section>
@@ -68,7 +68,7 @@ function List() {
     <div className='d-md-none d-lg-none mt-5 text-center'>
 
     <Image className='rounded shadow' data-aos="fade-up" data-aos-duration="500"       src="/shakthiview.png"
-        alt="home stay"
+        alt="shakthi homestay chikmagalur"
         width={360}
         height={400}
         priority={true}

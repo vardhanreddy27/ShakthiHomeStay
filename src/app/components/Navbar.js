@@ -19,7 +19,7 @@ function Navbar() {
     <div className='col-4 fw-bold text-center'>
     <Image  className=''
         src="/SHAKTHI.png"
-        alt="home stay"
+        alt="shakthi homestay chikmagalur"
         width={90}
         height={34}
         priority={true}
