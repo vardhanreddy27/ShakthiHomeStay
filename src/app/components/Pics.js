@@ -21,7 +21,7 @@ function Pics() {
       width={100}
       height={100}
     />  <Image  data-aos="zoom-in" data-aos-duration="400" layout="responsive"
-    src="/road.jpg"
+    src="/road.JPG"
     className="w-100 shadow-1-strong rounded mb-4"
     alt="shakthi homestay chikmagalur"
     width={100}
@@ -45,7 +45,7 @@ function Pics() {
       width={100}
       height={100}
     />   <Image  data-aos="zoom-in" data-aos-duration="800" layout="responsive"
-    src="/nature.jpg"
+    src="/nature.JPG"
     className="w-100 shadow-1-strong rounded mb-4"
     alt="shakthi homestay chikmagalur"
     width={100}
@@ -69,7 +69,7 @@ function Pics() {
       width={100}
       height={100}
     /> <Image  data-aos="zoom-in" data-aos-duration="1200" 
-    src="/outdoor.jpg"
+    src="/outdoor.JPG"
     className="w-100 shadow-1-strong rounded mb-4"  layout="responsive"
     alt="shakthi homestay chikmagalur"
     width={300}
