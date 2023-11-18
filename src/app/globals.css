@@ -254,6 +254,8 @@ color: white!important;}
         display: none!important;
     }html,body{
         overflow-x: hidden;
+    }.rempad{
+        height: 30rem!important;
     }
 .myr{
         width: 95%;

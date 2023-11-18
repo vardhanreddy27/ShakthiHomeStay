@@ -13,6 +13,7 @@ import AnimatedCursor from "react-animated-cursor"
 import Hero from './components/Hero';
 import List from './components/List';
 import Modern from './components/Modern';
+import Locaations from './components/Locaations';
 
 function page() {
 	   return (
@@ -35,6 +36,7 @@ function page() {
 <Testimonial /> 
  <Faqs />
  <Pics />  
+ <Locaations />
 <Contact />
 </>
  )
