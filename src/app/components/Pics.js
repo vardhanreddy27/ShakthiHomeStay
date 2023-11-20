@@ -26,7 +26,13 @@ function Pics() {
     alt="shakthi homestay chikmagalur"
     width={100}
     height={100}
-  />
+  /><Image  data-aos="zoom-in" data-aos-duration="400" layout="responsive"
+  src="/bedroom.jpg"
+  className="w-100 shadow-1-strong rounded mb-4"
+  alt="shakthi homestay chikmagalur"
+  width={100}
+  height={100}
+/>
   </div>
 
   <div className="col-lg-4 mb-4 mb-lg-0">
@@ -50,7 +56,13 @@ function Pics() {
     alt="shakthi homestay chikmagalur"
     width={100}
     height={100}
-  />
+  />  <Image  data-aos="zoom-in" data-aos-duration="800" layout="responsive"
+  src="/wood.png"
+  className="w-100 shadow-1-strong rounded mb-4"
+  alt="shakthi homestay chikmagalur"
+  width={100}
+  height={100}
+/>
   </div>
 
   <div className="col-lg-4 mb-4 mb-lg-0">
@@ -74,7 +86,13 @@ function Pics() {
     alt="shakthi homestay chikmagalur"
     width={300}
     height={300}
-  /> 
+  /> <Image  data-aos="zoom-in" data-aos-duration="1200" 
+  src="/out.png"
+  className="w-100 shadow-1-strong rounded mb-4"  layout="responsive"
+  alt="shakthi homestay chikmagalur"
+  width={300}
+  height={300}
+/> 
   </div>  
 </div>
   )
